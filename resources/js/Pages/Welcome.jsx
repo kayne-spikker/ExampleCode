@@ -23,6 +23,13 @@ export default function Welcome(props) {
                             >
                                 Register
                             </Link>
+
+                            <Link
+                                href={route('dashboard')}
+                                className="ml-4 text-sm text-gray-700 dark:text-gray-500 underline"
+                            >
+                                Dash
+                            </Link>
                         </>
                     )}
                 </div>
