@@ -84,7 +84,7 @@ export default function Login({ status, canResetPassword }) {
                         Create account
                     </Link>
 
-                    <div className="btn-group">
+                    <div>
                         {canResetPassword && (
                             <Link
                                 href={route('password.request')}
